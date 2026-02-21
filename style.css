@@ -158,17 +158,17 @@ header a:hover {
     .news h2{
         font-size: clamp(24px, 5vw, 60px);
         margin-left: 15vw;
-        top: clamp(10px, 5vh, 300px);
+        top: clamp(50px, 5vh, 300px);
     }
     .news h3{
         font-size: clamp(24px, 5vw, 60px);
         margin-left: 28vw;
-        top: clamp(10px, 5vh, 300px);
+        top: clamp(50px, 5vh, 300px);
     }
     .news p{
         font-size: clamp(12px, 2.5vw, 30px);
         margin-left: 29vw;
-        top: clamp(20px, 5vh, 310px)
+        top: clamp(60px, 5vh, 310px)
     }
     .closebtn {
         position: absolute;
@@ -194,5 +194,4 @@ header a:hover {
     .links a:hover {
         opacity: 0.6;
     }
-
 }
