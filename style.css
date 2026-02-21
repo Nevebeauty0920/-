@@ -92,11 +92,10 @@ header a:hover {
         display:none;
     }
     header h1 {
-        display: flex;
-        align-items: center;
-        font-size: 3vh;
-        flex-direction: column;
-        text-align: center;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: clamp(18px, 4vw, 28px);
     }
     .menu {
         display:block;
@@ -203,6 +202,7 @@ header a:hover {
     }
 
 }
+
 
 
 
