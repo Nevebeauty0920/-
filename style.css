@@ -92,6 +92,7 @@ header a:hover {
         display:none;
     }
     header h1 {
+        font-size: 2.5vh;
         left: 50%;
         transform:translateX(-50%)
     }
@@ -198,4 +199,5 @@ header a:hover {
     .links a:hover {
         opacity: 0.6;
     }
+
 }
