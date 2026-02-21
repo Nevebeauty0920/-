@@ -156,17 +156,17 @@ header a:hover {
         justify-content: center;
     }
     .news h2{
-        font-size: 40px;
+        font-size: clamp(24px, 5vw, 60px);
         margin-left: 15vw;
         top: 300px;
     }
     .news h3{
-        font-size: 40px;
+        font-size: clamp(24px, 5vw, 60px);
         margin-left: 28vw;
         top: 300px;
     }
     .news p{
-        font-size: 20px;
+        font-size: clamp(12px, 2.5vw, 30px);
         margin-left: 29vw;
         top: 310px;
     }
@@ -194,4 +194,5 @@ header a:hover {
     .links a:hover {
         opacity: 0.6;
     }
+
 }
