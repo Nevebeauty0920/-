@@ -92,8 +92,8 @@ header a:hover {
         display:none;
     }
     header h1 {
-        font-size: 2.5vh;
-        left: 50%;
+        font-size: 3vh;
+        left: 100%;
         transform:translateX(-50%)
     }
     .menu {
@@ -201,3 +201,4 @@ header a:hover {
     }
 
 }
+
