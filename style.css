@@ -129,7 +129,6 @@ header a:hover {
         display: flex;
         justify-content: center;
         pointer-events: none;
-        top: 10px;
     }
     .links a{
         display: block;
@@ -243,6 +242,7 @@ header a:hover {
     }
 
 }
+
 
 
 
