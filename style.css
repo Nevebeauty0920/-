@@ -198,12 +198,12 @@ header a:hover {
         margin-left: 29vw;
         top: clamp(60px, 25vh, 310px)
     }
-    .closebtn {
+   .closebtn {
         position: fixed;
-        top: 30px;
-        left: 30px;
-        width: 45px;
-        height: 45px;
+        top: 10px;
+        left: 25px;
+        width: 50px;
+        height: 60px;
         background: transparent;
         border: none;
         cursor: pointer;
@@ -242,6 +242,7 @@ header a:hover {
     }
 
 }
+
 
 
 
