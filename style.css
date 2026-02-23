@@ -38,7 +38,7 @@ header a:hover {
     background-color: #f4c4c4;
     color: #902d36;
     height: 97.5vh;
-    background-image:url("images/NEVE-beauty網站.png");
+    background-image:url("NEVE-beauty網站.png");
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
@@ -132,14 +132,14 @@ header a:hover {
         display: block;
         text-decoration: none;
         color: #fffcfc;
-        padding: 5px 0;
+        padding: 2.5px 0;
         font-size: 25px;
         text-transform: uppercase;
         transition: 0.3s ease;
         text-align: center;
         font-family: "Cormorant Garamond", serif;
         font-weight: 300;
-        letter-spacing: 8px;
+        letter-spacing: 5px;
     }
     .links.active {
         left: 0;
@@ -177,7 +177,7 @@ header a:hover {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-image:url("images/NEVE-beauty網站2.png");
+        background-image:url("NEVE-beauty網站2.png");
         background-repeat:no-repeat;
         background-size:cover;
         background-position:center;
@@ -239,4 +239,5 @@ header a:hover {
     .links a:hover {
         opacity: 0.6;
     }
+
 }
