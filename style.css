@@ -138,7 +138,7 @@ header a:hover {
         transition: 0.3s ease;
         font-family: "Cormorant Garamond", serif;
         font-weight: 300;
-        letter-spacing: 8px;
+        letter-spacing: 4px;
     }
     .links.active {
         left: 0;
@@ -160,7 +160,6 @@ header a:hover {
         align-items: center;
         text-align: center;
         top: 10px;
-        left: 35px;
     }
     .links li {
         display: block;
@@ -242,3 +241,4 @@ header a:hover {
     }
 
 }
+
