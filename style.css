@@ -132,7 +132,6 @@ header a:hover {
         display: block;
         text-decoration: none;
         color: #fffcfc;
-        padding: 2.5px 0;
         font-size: 25px;
         text-transform: uppercase;
         transition: 0.3s ease;
@@ -241,4 +240,5 @@ header a:hover {
     }
 
 }
+
 
