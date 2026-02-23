@@ -110,7 +110,7 @@ header a:hover {
         border:none;
         cursor:pointer;
     }
-    .links {
+ .links {
         position: fixed;
         top: 0;
         left: 0;
@@ -128,12 +128,10 @@ header a:hover {
         overflow-y: auto
     }
     .links a{
-        left: 0;
         text-decoration: none;
         color: #fffcfc;
         padding: 8px 20px;
         font-size: 22px;
-        font-weight: 500;
         text-transform: uppercase;
         transition: 0.3s ease;
         font-family: "Cormorant Garamond", serif;
@@ -159,11 +157,11 @@ header a:hover {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        top: 10px;
+        left: 50px;
     }
     .links li {
         display: block;
-        margin: 1px 0;
+        margin: 0.5px 0;
         opacity: 0;
         transform: translateY(10px);
         transition: 0.4s ease;
@@ -241,4 +239,5 @@ header a:hover {
     }
 
 }
+
 
