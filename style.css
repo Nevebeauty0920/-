@@ -128,6 +128,7 @@ header a:hover {
         overflow-y: auto
         display: flex;
         justify-content: center;
+        pointer-events: none;
     }
     .links a{
         display: block;
@@ -146,6 +147,7 @@ header a:hover {
         left: 0;
         opacity: 1;
         visibility: visible;
+        pointer-events: auto;
     }
     .links.active .closebtn {
         display: block;
@@ -240,6 +242,7 @@ header a:hover {
     }
 
 }
+
 
 
 
