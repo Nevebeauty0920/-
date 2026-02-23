@@ -103,9 +103,8 @@ header a:hover {
         display:block;
         background-color:transparent;
         color:#902d35;
-        font-size:35px;
+        font-size:50px;
         position:absolute;
-        top:10px;
         left:20px;
         border:none;
         cursor:pointer;
@@ -241,6 +240,7 @@ header a:hover {
     }
 
 }
+
 
 
 
