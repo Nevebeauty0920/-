@@ -141,6 +141,7 @@ header a:hover {
         font-family: "Cormorant Garamond", serif;
         font-weight: 300;
         letter-spacing: 5px;
+        line-height: 2.5;
     }
     .links.active {
         left: 0;
@@ -240,6 +241,7 @@ header a:hover {
     }
 
 }
+
 
 
 
