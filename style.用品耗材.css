@@ -306,7 +306,8 @@ header a:hover {
         transform: translateY(0);
     }
     .news{
-        height: 97.5vh;
+        min-height: 100vh;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -374,3 +375,4 @@ header a:hover {
     }
 
 }
+
