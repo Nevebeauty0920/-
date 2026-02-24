@@ -225,36 +225,40 @@ header a:hover {
     background: none;
     color: white;
     border: none;
-    font-size: 35px;
+    font-size: 30px;
     padding: 20px 30px;
     cursor: pointer;
     border-radius: 50%;
     transition: 0.3s;
 }
 .arrow:hover {
-    background: rgba(255,255,255,0.9);
+    transform: translateY(-50%) scale(1.3);
+    text-shadow: 
+        0 0 8px #ffb6d9,
+        0 0 15px #ffb6d9,
+        0 0 25px #ffb6d9;
 }
 /* 左箭頭 */
 .prev {
-    color: #ffb6d900;
-    top: -300px;
-    left: -30px;
+    color: #ffb6d945;
+    top: -29px;
+    left: 40vw;
     transition: 0.4s ease;
 }
 .slider:hover .prev {
     color: #ffb6d9;
-    left: 25px;
+    left: 39vw;
 }
 /* 右箭頭 */
 .next {
-    color: #ffb6d900;
-    top: -300px;
-    right: -30px;
+    color: #ffb6d945;
+    top: -29px;
+    right: 40vw;
     transition: 0.4s ease;
 }
 .slider:hover .next {
     color: #ffb6d9;
-    right: 25px;
+    right: 39vw;
 }
 /* 淡入動畫 */
 @keyframes fade {
@@ -418,7 +422,28 @@ header a:hover {
     .promo-slider {
         padding: 200px 20px;
     }
+    .prev {
+        color: #ffb6d945;
+        top: -29px;
+        left: 17vw;
+        transition: 0.4s ease;
+    }
+    .slider:hover .prev {
+        color: #ffb6d9;
+        left: 16vw;
+    }
+    .next {
+        color: #ffb6d945;
+        top: -29px;
+        left: 70vw;
+        transition: 0.4s ease;
+    }
+    .slider:hover .next {
+        color: #ffb6d9;
+        right: 69vw;
+    }
 }
+
 
 
 
