@@ -6,6 +6,9 @@ document.addEventListener("DOMContentLoaded", () => {
     let slideIndex = 0;
     const slides = document.querySelectorAll(".slide");
     const dots = document.querySelectorAll(".dot");
+    const images = document.querySelectorAll('.slides img');
+    const prev = document.querySelector('.prev');
+    const next = document.querySelector('.next');
     let autoSlide;
     
     menu.addEventListener("click", () => {
@@ -69,4 +72,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
     showSlide(0);
     startAutoSlide();
+
+    prev.addEventListener("click", () => {
+    showSlide(slideIndex - 1);
+    stopAutoSlide();
+    startAutoSlide();
+    });
+
+    next.addEventListener("click", () => {
+    showSlide(slideIndex + 1);
+    stopAutoSlide();
+    startAutoSlide();
+    });
 });
