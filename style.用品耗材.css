@@ -198,6 +198,10 @@ header a:hover {
 }
 /* 小圓點 */
 .dots {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
     margin-top: 25px;
 }
 .dot {
@@ -213,6 +217,44 @@ header a:hover {
 .dot.active {
     opacity: 1;
     background-color: #ff6bb5;
+}
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    color: white;
+    border: none;
+    font-size: 35px;
+    padding: 20px 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.arrow:hover {
+    background: rgba(255,255,255,0.9);
+}
+/* 左箭頭 */
+.prev {
+    color: #ffb6d900;
+    top: -300px;
+    left: -30px;
+    transition: 0.4s ease;
+}
+.slider:hover .prev {
+    color: #ffb6d9;
+    left: 25px;
+}
+/* 右箭頭 */
+.next {
+    color: #ffb6d900;
+    top: -300px;
+    right: -30px;
+    transition: 0.4s ease;
+}
+.slider:hover .next {
+    color: #ffb6d9;
+    right: 25px;
 }
 /* 淡入動畫 */
 @keyframes fade {
@@ -377,5 +419,6 @@ header a:hover {
         padding: 200px 20px;
     }
 }
+
 
 
