@@ -373,6 +373,9 @@ header a:hover {
     .links a:hover {
         opacity: 0.6;
     }
-
+    .promo-slider {
+        padding: 200px 20px;
+    }
 }
+
 
