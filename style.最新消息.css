@@ -39,7 +39,7 @@ header a:hover {
     min-height: 78vh;
     color: #902d36;
     height: 97.4vh;
-    background-image:url("../images/NEVE-beauty網站.png");
+    background-image:url("NEVE-beauty網站.png");
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
@@ -431,7 +431,7 @@ header a:hover {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-image:url("../images/NEVE-beauty網站2.png");
+        background-image:url("NEVE-beauty網站2.png");
         background-repeat:no-repeat;
         background-size:cover;
         background-position:center;
@@ -505,4 +505,5 @@ header a:hover {
     .news-item.active .news-content {
     max-height: 600px;
     }
+
 }
